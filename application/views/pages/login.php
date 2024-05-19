@@ -80,6 +80,11 @@ License: For each use you must have a valid license purchased only from above li
 								<p class="text-center fw-bold">Username : pengguna </p>
 								<p class="text-center fw-bold">Password : pengguna</p> -->
 							<!--begin::Input group-->
+
+							<p class="text-center fw-bold">Role Pengguna : </p>
+							<p class="text-center fw-bold">Username : pengguna </p>
+							<p class="text-center fw-bold">Password : pengguna</p>
+
 							<div class="fv-row mb-10">
 								<!--begin::Label-->
 								<label class="form-label fs-6 fw-bolder text-dark">Username</label>
