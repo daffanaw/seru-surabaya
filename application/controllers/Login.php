@@ -22,7 +22,7 @@ class Login extends CI_Controller {
 			if (!empty($result) && password_verify($data['pass'], $result->pass)) {
 				$sessionData = array('user' => $result->user, 'id' => $result->kode_user, 'level' => $result->level);
 				$this->session->set_userdata($sessionData);
-				return redirect('pages/dashboard');
+				return redirect('Dashboard');
 			} 
 			$this->session->set_flashdata('message', 'Username / Password anda salah');
 		}
