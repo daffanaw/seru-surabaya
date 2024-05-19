@@ -114,7 +114,9 @@ License: For each use you must have a valid license purchased only from above li
 								<!--begin::Submit button-->
 								<button type="submit" id="kt_sign_in_submit" class="btn btn-lg btn-primary w-100 mb-5">
 									<span class="indicator-label">Lanjut</span>
+
 									<span class="indicator-progress">Tunggu sebentar...
+									
 									<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
 								</button>
 								<!--end::Submit button-->
