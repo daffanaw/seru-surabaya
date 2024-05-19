@@ -15,7 +15,7 @@
                                             <ul class="menu-nav">
                                                 <?php if ($this->session->userdata('level') == 'pengguna' || $this->session->userdata('level') == 'admin') { ?>
                                                 <li class="menu-item menu-item-open menu-item-submenu menu-item-rel menu-item-open <?= $this->uri->segment(1) === 'Dashboard' ? 'menu-item-here' : '' ?> ">
-                                                    <a href="Dashboard" class="menu-link ">
+                                                    <a href="<?= base_url('Dashboard') ?>" class="menu-link ">
                                                         <span class="menu-text">Dashboard</span>
                                                         <i class="menu-arrow"></i>
                                                     </a>
@@ -23,7 +23,7 @@
                                                 <?php } ?>
                                                 <?php if ($this->session->userdata('level') == 'admin') { ?>
                                                     <li class="menu-item menu-item-submenu <?= $this->uri->segment(1) === 'Users' ? 'menu-item-here' : '' ?>" >
-                                                                <a href="Users" class="menu-link">
+                                                                <a href="<?= base_url('Users') ?>" class="menu-link">
                                                                     <span class="svg-icon menu-icon">
                                                                         <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Add-user.svg-->
                                                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -41,7 +41,7 @@
                                                             <?php } ?>
                                                               <?php if ($this->session->userdata('level') == 'admin') { ?>
                                                     <li class="menu-item <?= $this->uri->segment(1) === 'Kriteria' ? 'menu-item-here' : '' ?>" aria-haspopup="true">
-                                                                <a href="Kriteria" class="menu-link">
+                                                                <a href="<?= base_url('Kriteria') ?>" class="menu-link">
                                                                     <span class="svg-icon menu-icon">
                                                                         <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Shield-check.svg-->
                                                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -59,7 +59,7 @@
                                                 <?php } ?>             
                                                 <?php if ($this->session->userdata('level') == 'admin') { ?>
                                                     <li class="menu-item menu-item-submenu <?= $this->uri->segment(1) === 'BobotKriteria' ? 'menu-item-here' : '' ?>" aria-haspopup="true">
-                                                                <a href="BobotKriteria" class="menu-link">
+                                                                <a href="<?= base_url('BobotKriteria') ?>" class="menu-link">
                                                                     <span class="svg-icon menu-icon">
                                                                         <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Shopping/Box2.svg-->
                                                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -77,7 +77,7 @@
                                                 <?php } ?>
                                                    <?php if ($this->session->userdata('level') == 'pengguna' || $this->session->userdata('level') == 'admin') { ?>
                                                             <li class="menu-item menu-item-submenu <?= $this->uri->segment(1) === 'Kendaraan' ? 'menu-item-here' : '' ?>">
-                                                                <a href="Kendaraan" class="menu-link">
+                                                                <a href="<?= base_url('Kendaraan') ?>" class="menu-link">
                                                                     <span class="svg-icon menu-icon">
                                                                         <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Files/Pictures1.svg-->
                                                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -95,7 +95,7 @@
                                                 <?php } ?>
                                                 <?php if ( $this->session->userdata('level') == 'pengguna' || $this->session->userdata('level') == 'admin') { ?>
                                                     <li class="menu-item menu-item-submenu <?= $this->uri->segment(1) === 'BobotAlternatif' ? 'menu-item-here' : '' ?>" aria-haspopup="true">
-                                                                <a href="BobotAlternatif" class="menu-link">
+                                                                <a href="<?= base_url('BobotAlternatif') ?>" class="menu-link">
                                                                     <span class="svg-icon menu-icon">
                                                                         <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Thunder-move.svg-->
                                                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -113,7 +113,7 @@
                                                 <?php } ?>
                                                 <?php if ($this->session->userdata('level') == 'pengguna'|| $this->session->userdata('level') == 'admin') { ?>
                                                 <li class="menu-item menu-item-submenu menu-item-rel <?= $this->uri->segment(1) === 'Penghitungan' ? 'menu-item-here' : '' ?>" aria-haspopup="true">
-                                                    <a href="Penghitungan" class="menu-link">
+                                                    <a href="<?= base_url('Penghitungan') ?>" class="menu-link">
                                                     <span class="svg-icon menu-icon">
                                                                         <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Thunder-move.svg-->
                                                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -133,7 +133,7 @@
                                                 <?php } ?>
                                                  <?php if ($this->session->userdata('level') == 'admin') { ?>
                                                 <li class="menu-item menu-item-submenu menu-item-rel <?= $this->uri->segment(1) === 'PetunjukAdmin' ? 'menu-item-here' : '' ?>" aria-haspopup="true">
-                                                    <a href="PetunjukAdmin" class="menu-link">
+                                                    <a href="<?= base_url('PetunjukAdmin') ?>" class="menu-link">
                                                     <span class="svg-icon menu-icon">
                                                                         <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Thunder-move.svg-->
                                                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -153,7 +153,7 @@
                                                 <?php } ?>
                                                   <?php if ($this->session->userdata('level') == 'pengguna') { ?>
                                                 <li class="menu-item menu-item-submenu menu-item-rel <?= $this->uri->segment(1) === 'PetunjukPengguna' ? 'menu-item-here' : '' ?>" aria-haspopup="true">
-                                                    <a href="PetunjukPengguna" class="menu-link">
+                                                    <a href="<?= base_url('PetunjukPengguna') ?>" class="menu-link">
                                                         <span class="menu-text">Cara Penggunaan</span>
                                                         <span class="menu-desc"></span>
                                                         <i class="menu-arrow"></i>
@@ -198,7 +198,7 @@
                                                 <span class="text-white opacity-70 font-weight-bold font-size-base d-none d-md-inline mr-1">Hi,</span>
                                                 <span class="text-white opacity-90 font-weight-bolder font-size-base d-none d-md-inline mr-4"><?= $this->session->userdata('user') ?></span>
                                             </div>
-                                            <a href="logout" class="btn btn-icon btn-hover-transparent-white d-flex align-items-center btn-lg px-md-2 w-md-auto ">Keluar</a>
+                                            <a href="<?= base_url('logout') ?>" class="btn btn-icon btn-hover-transparent-white d-flex align-items-center btn-lg px-md-2 w-md-auto ">Keluar</a>
                                         </div>
                                         <!--end::Toggle-->
                                     </div>

@@ -125,7 +125,7 @@
 										<span class="text-dark-75 font-weight-bolder d-block font-size-lg"><?= $row->rating ?></span>
 									</td>
 									<td class="text-center">
-										<img src="uploads/kendaraan <?= $row->foto?>" style="width: 200px;" alt="" srcset="">
+										<img src="<?= base_url('uploads/kendaraan/' . $row->foto) ?>" style="width: 200px;" alt="" srcset="">
 									</td>
 									<!-- <td class="text-center">
 										<span class="text-dark-75 font-weight-bolder d-block font-size-lg"><?= $row->contact ?></span>
@@ -159,7 +159,7 @@
 												<!--end::Svg Icon-->
 											</span>
 										</a>
-										<a href="Kendaraan/delete <?= $row->foto?>" onclick="return confirm('Hapus data?')" class="btn btn-icon btn-light btn-hover-danger btn-sm">
+										<a href="<?php echo site_url('Kendaraan/delete/' . $row->kode_kendaraan) ?>" onclick="return confirm('Hapus data?')" class="btn btn-icon btn-light btn-hover-danger btn-sm">
 											<span class="svg-icon svg-icon-md svg-icon-primary">
 
 												<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -279,7 +279,7 @@
 					<?= form_error('kode_kendaraan', '<div class="alert alert-danger">', '</div>'); ?>
 					<div class="form-group">
 						<label>Gambar :</label> <br>
-						<img src="uploads/kendaraan/ <?= $row->foto ?>" style="width: 200px; height=300px";></br>
+						<img src="<?= base_url('uploads/kendaraan/' . $row->foto) ?>" style="width: 200px; height=300px";></br>
 						<input type="file" class="form-control form-control-solid" name="foto" value="<?= $row->foto ?>"/>
 					</div>
 					<?= form_error('foto', '<div class="alert alert-danger">', '</div>'); ?>

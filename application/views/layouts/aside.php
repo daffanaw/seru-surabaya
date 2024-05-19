@@ -29,7 +29,7 @@
 			</div>
 		</div>
 		<div class="menu-item">
-			<a class="menu-link active" href="Users">
+			<a class="menu-link active" href="<?= base_url('Users') ?>">
 				<span class="menu-icon">
 					<!--begin::Svg Icon | path: icons/duotune/general/gen025.svg-->
 					<span class="svg-icon svg-icon-2">

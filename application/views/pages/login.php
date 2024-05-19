@@ -24,13 +24,13 @@ License: For each use you must have a valid license purchased only from above li
 		<meta property="og:url" content="https://keenthemes.com/metronic" />
 		<meta property="og:site_name" content="Keenthemes | Metronic" />
 		<link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
-		<link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+		<link rel="shortcut icon" href="<?php echo base_url();?>assets/media/logos/favicon.ico" />
 		<!--begin::Fonts-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
 		<!--end::Fonts-->
 		<!--begin::Global Stylesheets Bundle(used by all pages)-->
-		<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
-		<link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="<?php echo base_url();?>assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="<?php echo base_url();?>assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
 		<!--end::Global Stylesheets Bundle-->
 	</head>
 	<!--end::Head-->
@@ -48,7 +48,7 @@ License: For each use you must have a valid license purchased only from above li
 					<!--begin::Wrapper-->
 					<div class="w-lg-500px bg-body rounded shadow-sm p-10 p-lg-15 mx-auto">
 						<!--begin::Form-->
-						<form class="form w-100" id="kt_sign_in_form" action="<?= bese_url('Login')?>" method="POST">
+						<form class="form w-100" id="kt_sign_in_form" action="<?= base_url('Login') ?>" method="POST">
 							<!--begin::Heading-->
 							<div class="text-center mb-10">
 								<!--begin::Title-->
@@ -114,9 +114,7 @@ License: For each use you must have a valid license purchased only from above li
 								<!--begin::Submit button-->
 								<button type="submit" id="kt_sign_in_submit" class="btn btn-lg btn-primary w-100 mb-5">
 									<span class="indicator-label">Lanjut</span>
-
 									<span class="indicator-progress">Tunggu sebentar...
-									
 									<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
 								</button>
 								<!--end::Submit button-->
@@ -124,7 +122,7 @@ License: For each use you must have a valid license purchased only from above li
 								<div class="text-center text-muted fw-bolder mb-5">atau</div>
 								<!--end::Separator-->
 								<!--begin::Google link-->
-								<a href="/" class="btn btn-flex flex-center btn-light btn-lg w-100 mb-5">
+								<a href="<?= base_url('/'); ?>" class="btn btn-flex flex-center btn-light btn-lg w-100 mb-5">
 								Kembali keberanda</a>
 								<!--end::Google link-->
 								<!--begin::Google link-->
@@ -145,8 +143,8 @@ License: For each use you must have a valid license purchased only from above li
 		<!--begin::Javascript-->
 		<script>var hostUrl = "assets/";</script>
 		<!--begin::Global Javascript Bundle(used by all pages)-->
-		<script src="assets/plugins/global/plugins.bundle.js"></script>
-		<script src="assets/js/scripts.bundle.js"></script>
+		<script src="<?php echo base_url();?>assets/plugins/global/plugins.bundle.js"></script>
+		<script src="<?php echo base_url();?>assets/js/scripts.bundle.js"></script>
 		<!--end::Global Javascript Bundle-->
 		<!--begin::Page Custom Javascript(used by this page)-->
 		<!-- <script src="<?php echo base_url();?>assets/js/custom/authentication/sign-in/general.js"></script> -->

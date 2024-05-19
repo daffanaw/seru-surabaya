@@ -26,13 +26,13 @@ License: For each use you must have a valid license purchased only from above li
 	<meta property="og:url" content="https://keenthemes.com/metronic" />
 	<meta property="og:site_name" content="Keenthemes | Metronic" />
 	<link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
-	<link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+	<link rel="shortcut icon" href="<?php echo base_url(); ?>assets/media/logos/favicon.ico" />
 	<!--begin::Fonts-->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
 	<!--end::Fonts-->
 	<!--begin::Global Stylesheets Bundle(used by all pages)-->
-	<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
-	<link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo base_url(); ?>assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo base_url(); ?>assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
 	<!--end::Global Stylesheets Bundle-->
 </head>
 <!--end::Head-->
@@ -45,7 +45,7 @@ License: For each use you must have a valid license purchased only from above li
 		<!--begin::Header Section-->
 		<div class="mb-0" id="home">
 			<!--begin::Wrapper-->
-			<div class="bgi-no-repeat bgi-size-contain bgi-position-x-center bgi-position-y-bottom landing-dark-bg" style="background-image: url(assets/media/svg/illustrations/vektor-city.svg)">
+			<div class="bgi-no-repeat bgi-size-contain bgi-position-x-center bgi-position-y-bottom landing-dark-bg" style="background-image: url(<?php echo base_url(); ?>assets/media/svg/illustrations/vektor-city.svg)">
 				<!--begin::Header-->
 				<div class="landing-header" data-kt-sticky="true" data-kt-sticky-name="landing-header" data-kt-sticky-offset="{default: '400px', lg: '600px'}">
 					<!--begin::Container-->
@@ -79,7 +79,7 @@ License: For each use you must have a valid license purchased only from above li
 										<!--begin::Menu item-->
 										<div class="menu-item">
 										<a href="#">	
-										<img src="uploads/LogoSS.png" width="150px" height="50px"></img></a>
+										<img src="<?php echo base_url(); ?>uploads/LogoSS.png" width="150px" height="50px"></img></a>
 										</div>
 										<div class="menu-item">
 											<!--begin::Menu link-->
@@ -123,7 +123,7 @@ License: For each use you must have a valid license purchased only from above li
 							<!--end::Menu wrapper-->
 							<!--begin::Toolbar-->
 							<div class="flex-equal text-end ms-1">
-								<a href="login" class="btn btn-success">Masuk</a>
+								<a href="<?= base_url('Login') ?>" class="btn btn-success">Masuk</a>
 							</div>
 							<!--<div class="flex-equal ms-1">
 								<a href="<?= base_url('#') ?>" class="btn btn-info">Rekomendasi</a>
@@ -148,7 +148,7 @@ License: For each use you must have a valid license purchased only from above li
 						</h1>
 						<!--end::Title-->
 						<!--begin::Action-->
-						<a href="login" class="btn btn-primary">Mulai</a>
+						<a href="<?= base_url('Login') ?>" class="btn btn-primary">Mulai</a>
 						<!--end::Action-->
 					</div>
 					<!--end::Heading-->
@@ -187,7 +187,7 @@ License: For each use you must have a valid license purchased only from above li
 						<!--begin::Story-->
 						<div class="text-center mb-10 mb-md-0">
 							<!--begin::Illustration-->
-							<img src="assets/media/illustrations/sketchy-1/2.png" class="mh-125px mb-9" alt="" />
+							<img src="<?php echo base_url(); ?>assets/media/illustrations/sketchy-1/2.png" class="mh-125px mb-9" alt="" />
 							<!--end::Illustration-->
 							<!--begin::Heading-->
 							<div class="d-flex flex-center mb-5">
@@ -211,7 +211,7 @@ License: For each use you must have a valid license purchased only from above li
 						<!--begin::Story-->
 						<div class="text-center mb-10 mb-md-0">
 							<!--begin::Illustration-->
-							<img src="assets/media/illustrations/sketchy-1/15.png" class="mh-125px mb-9" alt="" />
+							<img src="<?php echo base_url(); ?>assets/media/illustrations/sketchy-1/15.png" class="mh-125px mb-9" alt="" />
 							<!--end::Illustration-->
 							<!--begin::Heading-->
 							<div class="d-flex flex-center mb-5">
@@ -235,7 +235,7 @@ License: For each use you must have a valid license purchased only from above li
 						<!--begin::Story-->
 						<div class="text-center mb-10 mb-md-0">
 							<!--begin::Illustration-->
-							<img src="assets/media/illustrations/sketchy-1/17.png" class="mh-125px mb-9" alt="" />
+							<img src="<?php echo base_url(); ?>assets/media/illustrations/sketchy-1/17.png" class="mh-125px mb-9" alt="" />
 							<!--end::Illustration-->
 							<!--begin::Heading-->
 							<div class="d-flex flex-center mb-5">
@@ -259,7 +259,7 @@ License: For each use you must have a valid license purchased only from above li
 						<!--begin::Story-->
 						<div class="text-center mb-10 mb-md-0">
 							<!--begin::Illustration-->
-							<img src="assets/media/illustrations/sketchy-1/5.png" class="mh-125px mb-9" alt="" />
+							<img src="<?php echo base_url(); ?>assets/media/illustrations/sketchy-1/5.png" class="mh-125px mb-9" alt="" />
 							<!--end::Illustration-->
 							<!--begin::Heading-->
 							<div class="d-flex flex-center mb-5">
@@ -283,7 +283,7 @@ License: For each use you must have a valid license purchased only from above li
 						<!--begin::Story-->
 						<div class="text-center mb-10 mb-md-0">
 							<!--begin::Illustration-->
-							<img src="assets/media/illustrations/sketchy-1/11.png" class="mh-125px mb-9" alt="" />
+							<img src="<?php echo base_url(); ?>assets/media/illustrations/sketchy-1/11.png" class="mh-125px mb-9" alt="" />
 							<!--end::Illustration-->
 							<!--begin::Heading-->
 							<div class="d-flex flex-center mb-5">
@@ -304,6 +304,7 @@ License: For each use you must have a valid license purchased only from above li
 					<!--end::Col-->
 				</div>
 				<!--end::Row-->
+
 
 						<!--begin::Projects Section-->
 						<div class="mb-lg-n15 position-relative z-index-2">
@@ -340,7 +341,7 @@ License: For each use you must have a valid license purchased only from above li
 													<!--begin::Col-->
 													<div class="col-lg-6">
 														<!--begin::Item-->
-														<a class="d-block card-rounded overlay h-lg-100" data-fslightbox="lightbox-projects" href="uploads/Monumen Surabaya 1.jpg">
+														<a class="d-block card-rounded overlay h-lg-100" data-fslightbox="lightbox-projects" href="<?php echo base_url(); ?>uploads/Monumen Surabaya 1.jpg">
 															<!--begin::Image-->
 															<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style="background-image:url('uploads/Monumen Surabaya 1.jpg')"></div>
 															<!--end::Image-->
@@ -360,7 +361,7 @@ License: For each use you must have a valid license purchased only from above li
 															<!--begin::Col-->
 															<div class="col-lg-6">
 																<!--begin::Item-->
-																<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="uploads/Monumen Jalesveva Jayamahe.jpg">
+																<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="<?php echo base_url(); ?>uploads/Monumen Jalesveva Jayamahe.jpg">
 																	<!--begin::Image-->
 																	<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('uploads/Monumen Jalesveva Jayamahe.jpg')"></div>
 																	<!--end::Image-->
@@ -376,7 +377,7 @@ License: For each use you must have a valid license purchased only from above li
 															<!--begin::Col-->
 															<div class="col-lg-6">
 																<!--begin::Item-->
-																<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="uploads/Monumen Kapal Selam.jpg">
+																<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="<?php echo base_url(); ?>uploads/Monumen Kapal Selam.jpg">
 																	<!--begin::Image-->
 																	<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('uploads/Monumen Kapal Selam.jpg')"></div>
 																	<!--end::Image-->
@@ -392,7 +393,7 @@ License: For each use you must have a valid license purchased only from above li
 														</div>
 														<!--end::Row-->
 														<!--begin::Item-->
-														<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="uploads/Kebun Binatang Surabaya.jpg">
+														<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="<?php echo base_url(); ?>uploads/Kebun Binatang Surabaya.jpg">
 															<!--begin::Image-->
 															<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('uploads/Kebun Binatang Surabaya.jpg')"></div>
 															<!--end::Image-->
@@ -446,7 +447,7 @@ License: For each use you must have a valid license purchased only from above li
 											<!--begin::Col-->
 											<div class="col-lg-6">
 												<!--begin::Item-->
-												<a class="d-block card-rounded overlay h-lg-100" data-fslightbox="lightbox-projects" href="uploads/Rujak Cingur.jpg">
+												<a class="d-block card-rounded overlay h-lg-100" data-fslightbox="lightbox-projects" href="<?php echo base_url(); ?>uploads/Rujak Cingur.jpg">
 													<!--begin::Image-->
 													<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style="background-image:url('uploads/Rujak Cingur.jpg')"></div>
 													<!--end::Image-->
@@ -466,7 +467,7 @@ License: For each use you must have a valid license purchased only from above li
 													<!--begin::Col-->
 													<div class="col-lg-6">
 														<!--begin::Item-->
-														<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="uploads/Gado-Gado Surabaya.jpg">
+														<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="<?php echo base_url(); ?>uploads/Gado-Gado Surabaya.jpg">
 															<!--begin::Image-->
 															<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('uploads/Gado-Gado Surabaya.jpg')"></div>
 															<!--end::Image-->
@@ -482,7 +483,7 @@ License: For each use you must have a valid license purchased only from above li
 													<!--begin::Col-->
 													<div class="col-lg-6">
 														<!--begin::Item-->
-														<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="uploads/Rawon Surabaya.jpg">
+														<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="<?php echo base_url(); ?>uploads/Rawon Surabaya.jpg">
 															<!--begin::Image-->
 															<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('uploads/Rawon Surabaya.jpg')"></div>
 															<!--end::Image-->
@@ -498,7 +499,7 @@ License: For each use you must have a valid license purchased only from above li
 												</div>
 												<!--end::Row-->
 												<!--begin::Item-->
-												<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="uploads/Lontong Kupang Surabaya.jpg">
+												<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="<?php echo base_url(); ?>uploads/Lontong Kupang Surabaya.jpg">
 													<!--begin::Image-->
 													<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('uploads/Lontong Kupang Surabaya.jpg')"></div>
 													<!--end::Image-->
@@ -540,7 +541,7 @@ License: For each use you must have a valid license purchased only from above li
 										<!--begin::Story-->
 										<div class="text-center mb-10 mb-md-0">
 											<!--begin::Illustration-->
-											<img src="assets/media/illustrations/sketchy-1/2.png" class="mh-125px mb-9" alt="" />
+											<img src="<?php echo base_url(); ?>assets/media/illustrations/sketchy-1/2.png" class="mh-125px mb-9" alt="" />
 											<!--end::Illustration-->
 											<!--begin::Heading-->
 											<div class="d-flex flex-center mb-5">
@@ -564,7 +565,7 @@ License: For each use you must have a valid license purchased only from above li
 										<!--begin::Story-->
 										<div class="text-center mb-10 mb-md-0">
 											<!--begin::Illustration-->
-											<img src="assets/media/illustrations/sketchy-1/8.png" class="mh-125px mb-9" alt="" />
+											<img src="<?php echo base_url(); ?>assets/media/illustrations/sketchy-1/8.png" class="mh-125px mb-9" alt="" />
 											<!--end::Illustration-->
 											<!--begin::Heading-->
 											<div class="d-flex flex-center mb-5">
@@ -590,7 +591,7 @@ License: For each use you must have a valid license purchased only from above li
 										<!--begin::Story-->
 										<div class="text-center mb-10 mb-md-0">
 											<!--begin::Illustration-->
-											<img src="assets/media/illustrations/sketchy-1/12.png" class="mh-125px mb-9" alt="" />
+											<img src="<?php echo base_url(); ?>assets/media/illustrations/sketchy-1/12.png" class="mh-125px mb-9" alt="" />
 											<!--end::Illustration-->
 											<!--begin::Heading-->
 											<div class="d-flex flex-center mb-5">
@@ -701,16 +702,16 @@ License: For each use you must have a valid license purchased only from above li
 						var hostUrl = "assets/";
 					</script>
 					<!--begin::Global Javascript Bundle(used by all pages)-->
-					<script src="assets/plugins/global/plugins.bundle.js"></script>
-					<script src="assets/js/scripts.bundle.js"></script>
+					<script src="<?php echo base_url(); ?>assets/plugins/global/plugins.bundle.js"></script>
+					<script src="<?php echo base_url(); ?>assets/js/scripts.bundle.js"></script>
 					<!--end::Global Javascript Bundle-->
 					<!--begin::Page Vendors Javascript(used by this page)-->
-					<script src="assets/plugins/custom/fslightbox/fslightbox.bundle.js"></script>
-					<script src="assets/plugins/custom/typedjs/typedjs.bundle.js"></script>
+					<script src="<?php echo base_url(); ?>assets/plugins/custom/fslightbox/fslightbox.bundle.js"></script>
+					<script src="<?php echo base_url(); ?>assets/plugins/custom/typedjs/typedjs.bundle.js"></script>
 					<!--end::Page Vendors Javascript-->
 					<!--begin::Page Custom Javascript(used by this page)-->
-					<script src="assets/js/custom/landing.js"></script>
-					<script src="assets/js/custom/pages/pricing/general.js"></script>
+					<script src="<?php echo base_url(); ?>assets/js/custom/landing.js"></script>
+					<script src="<?php echo base_url(); ?>assets/js/custom/pages/pricing/general.js"></script>
 					<!--end::Page Custom Javascript-->
 					<!--end::Javascript-->
 </body>
