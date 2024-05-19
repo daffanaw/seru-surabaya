@@ -1,4 +1,4 @@
-<script src="<?php echo base_url(); ?>templates/assets/chart.js"></script>
+<script src="templates/assets/chart.js"></script>
 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
 	<!--begin::Subheader-->
 	<div class="subheader py-2 py-lg-12 subheader-transparent" id="kt_subheader">
