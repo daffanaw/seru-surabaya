@@ -48,7 +48,7 @@ License: For each use you must have a valid license purchased only from above li
 					<!--begin::Wrapper-->
 					<div class="w-lg-500px bg-body rounded shadow-sm p-10 p-lg-15 mx-auto">
 						<!--begin::Form-->
-						<form class="form w-100" id="kt_sign_in_form" action="<?= base_url('Login') ?>" method="POST">
+						<form class="form w-100" id="kt_sign_in_form" action="Login" method="POST">
 							<!--begin::Heading-->
 							<div class="text-center mb-10">
 								<!--begin::Title-->
@@ -122,7 +122,7 @@ License: For each use you must have a valid license purchased only from above li
 								<div class="text-center text-muted fw-bolder mb-5">atau</div>
 								<!--end::Separator-->
 								<!--begin::Google link-->
-								<a href="<?= base_url('/'); ?>" class="btn btn-flex flex-center btn-light btn-lg w-100 mb-5">
+								<a href="/" class="btn btn-flex flex-center btn-light btn-lg w-100 mb-5">
 								Kembali keberanda</a>
 								<!--end::Google link-->
 								<!--begin::Google link-->

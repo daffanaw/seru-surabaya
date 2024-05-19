@@ -148,7 +148,7 @@ License: For each use you must have a valid license purchased only from above li
 						</h1>
 						<!--end::Title-->
 						<!--begin::Action-->
-						<a href="<?= base_url('serusurabaya.site/login') ?>" class="btn btn-primary">Mulai</a>
+						<a href="login" class="btn btn-primary">Mulai</a>
 						<!--end::Action-->
 					</div>
 					<!--end::Heading-->
