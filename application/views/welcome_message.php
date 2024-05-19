@@ -123,7 +123,7 @@ License: For each use you must have a valid license purchased only from above li
 							<!--end::Menu wrapper-->
 							<!--begin::Toolbar-->
 							<div class="flex-equal text-end ms-1">
-								<a href="<?= base_url('serusurabaya.site/login') ?>" class="btn btn-success">Masuk</a>
+								<a href="login" class="btn btn-success">Masuk</a>
 							</div>
 							<!--<div class="flex-equal ms-1">
 								<a href="<?= base_url('#') ?>" class="btn btn-info">Rekomendasi</a>
