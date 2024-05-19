@@ -131,7 +131,7 @@
 												<!--end::Svg Icon-->
 											</span>
 										</a>
-										<a href="<?php echo site_url('Kriteria/delete/' . $row->kode_kriteria) ?>"onclick="return confirm('Hapus data?')" class="btn btn-icon btn-light btn-hover-danger btn-sm">
+										<a href="Kriteria/delete/' <?= $row->kode_kriteria ?>"onclick="return confirm('Hapus data?')" class="btn btn-icon btn-light btn-hover-danger btn-sm">
 											<span class="svg-icon svg-icon-md svg-icon-primary">
 												<!--begin::Svg Icon | path:/metronic/theme/html/demo2/dist/assets/media/svg/icons/General/Trash.svg-->
 												<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
